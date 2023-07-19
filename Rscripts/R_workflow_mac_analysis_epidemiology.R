@@ -1,25 +1,66 @@
 setwd("path_to_working_directory")
-library("seqinr") 
-library("NMF")
-library("reshape2")
-library("RColorBrewer")
-library("ggtree")
-library("ape")
-library("phangorn")
-library("plyr")
-library("tidyverse")
-library("ggtreeExtra")
-library("ggnewscale")
-library("fastbaps")
-library("rPinecone")
-library("pairsnp")
-library("ggh4x")
-library("adegenet")
-library("TreeTools")
-library("PanVizGenerator")
-library("ggstance")
-devtools::install_github("gtonkinhill/pairsnp-r")
-library("pairsnp-r")
+if(!require("devtools")){
+  install.packages("devtools")
+  library("devtools")}
+if (!require("BiocManager", quietly = TRUE)){
+  install.packages("BiocManager")
+  library("BiocManager")}
+if(!require("seqinr")){
+  install.packages("seqinr")
+  library("seqinr")}
+if(!require("reshape2")){
+  install.packages("reshape2")
+  library("reshape2")}
+if(!require("RColorBrewer")){
+  install.packages("RColorBrewer")
+  library("RColorBrewer")}
+if(!require("ggtree")){
+  BiocManager::install("ggtree")
+  library("ggtree")}
+if(!require("ape")){
+  install.packages("ape")
+  library("ape")}
+if(!require("phangorn")){
+  install.packages("phangorn")
+  library("phangorn")}
+if(!require("plyr")){
+  install.packages("plyr")
+  library("plyr")}
+if(!require("tidyverse")){
+  install.packages("tidyverse")
+  library("tidyverse")}
+if(!require("ggtreeExtra")){
+  BiocManager::install("ggtreeExtra")
+  library("ggtreeExtra")}
+if(!require("ggnewscale")){
+  install.packages("ggnewscale")
+  library("ggnewscale")}
+if(!require("pairsnp")){
+  devtools::install_github("gtonkinhill/pairsnp-r")
+  library("pairsnp")}
+if(!require("fastbaps")){
+  devtools::install_github("gtonkinhill/fastbaps")
+  library("fastbaps")}
+if(!require("rPinecone")){
+  devtools::install_github("alexwailan/rpinecone")
+  library("rPinecone")}
+if(!require("ggh4x")){
+  devtools::install_github("teunbrand/ggh4x")
+  library("ggh4x")}
+if(!require("adegenet")){
+  install.packages("adegenet")
+  library("adegenet")}
+if(!require("TreeTools")){
+  install.packages("TreeTools")
+  library("TreeTools")}
+if(!require("ggstance")){
+  devtools::install_github("lionel-/ggstance")
+  library("ggstance")}
+if(!require("NMF")){
+  BiocManager::install("Biobase")
+  install.packages("NMF")
+  library("NMF")}
+
 
 ## SNPs analysis
 
