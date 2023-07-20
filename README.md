@@ -12,7 +12,7 @@ This code works well for our studies but is subjected to changes in the future. 
 meant to be executed but rather to use as guides when working on terminal.
 
 ### Software used in this pipeline
-Programs:
+Programs:\\
 fastp v0.23.2 (available at  https://github.com/OpenGene/fastp). 
 Unicycler v0.5.0 (available at https://github.com/rrwick/Unicycler). 
 SPAdes v3.15.3 (available at https://cab.spbu.ru/software/spades/). 
