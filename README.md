@@ -12,21 +12,39 @@ This code works well for our studies but is subjected to changes in the future. 
 meant to be executed but rather to use as guides when working on terminal.
 
 ### Software used in this pipeline
-Programs:\\
+Programs:
+
 fastp v0.23.2 (available at  https://github.com/OpenGene/fastp). 
+
 Unicycler v0.5.0 (available at https://github.com/rrwick/Unicycler). 
+
 SPAdes v3.15.3 (available at https://cab.spbu.ru/software/spades/). 
+
 prokka v1.14.6 (available at https://github.com/tseemann/prokka). 
+
 Roary v1.7.8 (available at https://github.com/sanger-pathogens/Roary). 
+
 RAxML v8.2.12 (available at https://cme.h-its.org/exelixis/web/software/raxml/). 
+
 figtree v1.4.4 (available at https://github.com/rambaut/figtree). 
+
 Snippy v4.6.0 (available at  https://github.com/tseemann/snippy). 
+
 Freebayes v1.3.2 (available at https://github.com/freebayes/freebayes).
+
 Gubbins v3.2.1 (available at https://github.com/nickjcroucher/gubbins). 
+
 snp-sites v2.5.1 (available at  https://github.com/sanger-pathogens/snp-sites).  
+
 R v4.3.1 (available at https://cran.r-project.org/). 
+
 rPinecone (available at  https://github.com/alexwailan/rpinecone).
+
 SKA (available at  https://github.com/simonrharris/SKA).
+
 Online resources:
+
 PubMLST  (available at https://pubmlst.org/bigsdb?db=pubmlst_rmlst_seqdef_kiosk).
+
 OrthoANI (available at https://www.ezbiocloud.net/tools/orthoani).
+
