@@ -8,7 +8,7 @@
 
 bash Anaconda-latest-Linux-x86_64.sh
 
-## Despues crea los environments antes de instalar cualquier programa
+## Create conda environments
 
 conda create -n environment_name
 
